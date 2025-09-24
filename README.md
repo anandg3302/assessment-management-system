@@ -8,7 +8,7 @@ Report formats are **configurable** — new assessment types can be added via JS
 assessment-management-system/
 
 
-│
+
 ├── backend/ # Express + TypeScript + Puppeteer
 
 │ ├── src/
@@ -28,7 +28,7 @@ assessment-management-system/
 │ └── tsconfig.json
 
 
-│
+
 
 ├── frontend/ # React + Vite + Tailwind
 
