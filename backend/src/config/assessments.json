@@ -1,0 +1,16 @@
+{
+  "as_hr_02": {
+    "name": "Health & Fitness Assessment",
+    "sections": [
+      { "title": "Key Body Vitals", "fields": ["vitalsMap.vitals.heart_rate", "vitalsMap.vitals.bp_sys", "vitalsMap.vitals.bp_dia"] },
+      { "title": "Body Composition", "fields": ["bodyCompositionData.BMI"] }
+    ]
+  },
+  "as_card_01": {
+    "name": "Cardiac Assessment",
+    "sections": [
+      { "title": "Key Body Vitals", "fields": ["vitalsMap.vitals.heart_rate", "vitalsMap.vitals.bp_sys", "vitalsMap.vitals.bp_dia"] },
+      { "title": "Body Composition", "fields": ["bodyCompositionData.BMI"] }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌐 Global Styles (Optional) */
+body {
+  @apply bg-gray-100 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 🔘 Button Styles (for consistency) */
+button {
+  @apply transition duration-200 ease-in-out;
+}
+button:hover {
+  @apply opacity-90;
+}
+
+/* 📦 Input Styles */
+input {
+  @apply border rounded px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500;
+}
