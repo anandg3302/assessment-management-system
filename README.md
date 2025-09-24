@@ -6,28 +6,70 @@ Report formats are **configurable** — new assessment types can be added via JS
 ## 📂 Project Structure
 
 assessment-management-system/
+
+
 │
 ├── backend/ # Express + TypeScript + Puppeteer
+
+
 │ ├── src/
+
+
 │ │ ├── config/ # Assessment templates (JSON)
+
+
 │ │ ├── controllers/
+
+
 │ │ ├── data/ # Sample data file(s)
+
+
 │ │ ├── routes/
+
+
 │ │ └── utils/
+
+
 │ ├── package.json
+
+
 │ └── tsconfig.json
+
+
 │
 ├── frontend/ # React + Vite + Tailwind
+
+
 │ ├── index.html
+
+
 │ ├── src/
+
+
 │ │ ├── components/
+
+
 │ │ ├── pages/
+
+
 │ │ ├── App.tsx
+
+
 │ │ ├── main.tsx
+
+
 │ │ └── index.css
+
+
 │ ├── package.json
+
+
 │ ├── tailwind.config.js
+
+
 │ └── tsconfig.json
+
+
 │
 └── README.md
 
